@@ -16,9 +16,7 @@
       >
         <!-- Icono de estado -->
         <div class="flex items-center mb-2">
-          <ExclamationCircleIcon v-if="correo.emergencia" class="h-6 w-6 text-red-500 mr-2" />
           <CheckIcon v-if="correo.leido" class="h-6 w-6 text-green-500 mr-2" />
-          <XMarkIcon v-if="correo.eliminado" class="h-6 w-6 text-gray-500 mr-2" />
         </div>
         <!-- Resto del contenido de la caja -->
         <div class="text-left w-full">
